@@ -14,7 +14,7 @@ int *ptr, i, n=5;
              for(i=0; i<n; i++){
                   printf("%d ", *(ptr+i));
               }         
-                    
+         free(ptr);           
     
     return 0;
     }
