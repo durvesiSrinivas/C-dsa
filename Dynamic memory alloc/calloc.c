@@ -15,6 +15,6 @@ printf("elements of dynamic memory are:\n");
     for(i=0; i<n; i++){
     printf("%d ", *(ptr+i));
     }    
-            
+      free(ptr);      
     return 0;
     }
