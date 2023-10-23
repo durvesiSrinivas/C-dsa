@@ -11,7 +11,7 @@ int ch = -1, size = 0, num = 0, front = -1, rear = -1;
 
 void main()
 {
-    ;
+    
 
     do
     {
